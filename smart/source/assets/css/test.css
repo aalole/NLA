@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header styles */
+header {
+    border-bottom: 1px solid #1d3557;
+    padding-bottom: 60px;
+    background: #1d3557;
+    color: #fff;
+}
+
+.header-wrapper {
+    padding: 30px;
+}
+
+/* .logo{
+      transform: translate(30%);
+  } */
+.logo-img {
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+}
+
+.header-text {
+    padding: 20px 0;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+}
+
+.header-text h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header-text .motto {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: capitalize;
+    -ms-text-transform: capitalize
+}
+
+.awesome {
+    font-size: 22px;
+    color: #fff;
+}
+
+.location:not(.awesome) {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.web {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.web a,
+.email a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.location-flex .location,
+.location-flex .phone,
+.location-flex .web,
+.location-flex .email {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+
+/* header desktop and tablet view */
+@media screen and (min-width:700px) {
+    .header-wrapper {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .header-text {
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+
+    .header-text h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .header-text .motto {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+/* result body */
+.main-wrapper {
+    margin: 10px;
+    padding-top: 15px;
+    /* overflow-x: hidden; */
+}
+
+.main-wrapper h5,
+.main-wrapper p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.test-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+
+
+.test-header-p {
+    font-weight: bold;
+    text-align: left;
+    font-weight: 600;
+}
+
+.bio th {
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: normal;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Lato", sans-serif;
+}
+
+caption {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.profile {
+    max-width: 90%;
+    margin: 20px auto;
+
+}
+
+.result-table {
+    overflow-x: auto;
+}
+
+.test-res-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.t2 {
+    width: 40%
+}
+
+.test-res-table th,
+.test-res-table td {
+    padding: 10px;
+}
+
+.aBtn {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px;
+    background-color: #1d3557;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    width: 120px;
+    border-radius: 10px;
+    margin: 10px 20px 0 50px
+}
+
+.aBtn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #1d3557;
+    font-family: "Lato", sans-serif;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .bio {
+        width: 500px;
+        margin: auto;
+    }
+
+   .aBtn {
+        position: relative;
+        left: 40%;
+        transform: translate(-30%)
+    }
+}
+
+/* students average score and psychomotor table */
+.avg-table {
+    width: 300px;
+}
+
+.avg-table .title-col {
+    font-weight: bold;
+}
+
+/* hr{
+    width: 500px;
+} */
+
+@media screen and (min-width: 700px) {
+    .mark-table {
+        display: flex;
+        justify-content: space-around;
+        align-items: top;
+    }
+
+    .table1 {
+        width: 45%;
+    }
+
+    .table2 {
+        width: 45%;
+    }
+}
+.tname{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+}

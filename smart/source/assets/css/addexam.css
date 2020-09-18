@@ -1,0 +1,23 @@
+.exam-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exam-input label {
+    padding-top: 8px;
+}
+.exam-input input,
+.exam-input select{
+    height: 30px;
+    margin: 0 0 10px 0 ;
+}
+
+.examform{
+    padding-left: 50px;
+}
+@media screen and (min-width:700px){
+    .examform{
+        padding-left: 300px;
+    }
+}
